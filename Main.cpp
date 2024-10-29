@@ -98,7 +98,7 @@ int main(int argc, char *argv[]) {
         if (result != NULL){
             cout << result->tostring() << endl;
         }
-    } catch (ParseException e) {
+    } catch (ParseException& e) {
         cout << "Error Parsing!" << endl;
     }
 }
